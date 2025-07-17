@@ -319,9 +319,10 @@ form p:not(:last-child) {
     }
 
     #book-dialog {
-        top: 40%;
+        top: 27%;
         left: 50%;
         transform: translate(-50%, -50%);
+        margin: 0;
     }
 
     .book-input {
