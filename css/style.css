@@ -317,4 +317,9 @@ form p:not(:last-child) {
         width: 5rem;
         height: 3rem;
     }
+
+    .dialog {
+        top: 5%;
+        transform: translateY(0) translateX(-50%);
+    }
 }
