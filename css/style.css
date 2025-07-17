@@ -313,13 +313,18 @@ form p:not(:last-child) {
     }
 
     button {
-        font-size: 1.1rem;
-        width: 5rem;
+        font-size: 1.2rem;
+        width: 6rem;
         height: 3rem;
     }
 
-    .dialog {
-        top: 5%;
-        transform: translateY(0) translateX(-50%);
+    #book-dialog {
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .book-input {
+        padding: 0.5rem;
     }
 }
