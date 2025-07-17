@@ -261,7 +261,7 @@ form p:not(:last-child) {
     font-size: 1.2rem;
     border-left: 1rem solid #FFCF50;
     border-bottom: 2px solid gray;
-    gap: 1rem;
+    gap: 2rem;
     padding: 1rem;
 }
 
@@ -297,11 +297,24 @@ form p:not(:last-child) {
 
 @media screen and (max-width: 750px) {
     :root {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .book-container {
-        padding: 0.5rem;
+        padding: 0rem;
+        row-gap: 0.5rem;
+        column-gap: 0.25rem;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .book-card {
+        align-items: flex-start;
+        width: 12rem;
+    }
+
+    button {
+        font-size: 1.1rem;
+        width: 5rem;
+        height: 3rem;
     }
 }
