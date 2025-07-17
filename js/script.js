@@ -99,6 +99,7 @@ submitButton.addEventListener('click', (e) => {
             authorName = 'Unknown';
         }
         addBookToLibrary(titleInput.value, authorName, parseInt(numPagesInput.value), readInput.checked);
+        dialog.close();
     } else {
         titleInput.setCustomValidity('A title is required!');
         form.reportValidity();
