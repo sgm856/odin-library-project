@@ -14,12 +14,14 @@ const form = document.querySelector('form');
 const readSymbol = '✓';
 const unreadSymbol = '✗'
 
-function Book(title, author, numPages, read, id) {
-    this.title = title;
-    this.author = author;
-    this.numPages = numPages;
-    this.id = id;
-    this.read = read;
+class Book {
+    constructor(title, author, numPages, read, id) {
+        this.title = title;
+        this.author = author;
+        this.numPages = numPages;
+        this.id = id;
+        this.read = read;
+    }
 }
 
 function toggleRead(book) {
