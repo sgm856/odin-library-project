@@ -95,7 +95,7 @@ function formValid() {
 
 submitButton.addEventListener('click', (e) => {
     e.preventDefault();
-    if (formValid()) {
+    if (titleInput.value.trim().length !== 0) {
         let authorName = authorInput.value;
         if (authorName === '') {
             authorName = 'Unknown';
